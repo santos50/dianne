@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+.experience {
+	padding-left: 2%;
+	padding-bottom: 2%;
+}
+
 /* Row */
 
 	.row {
@@ -1364,7 +1369,7 @@ input, select, textarea {
 
 		}
 
-	strong, b, h1, h2, h3, h4, h5, h6 {
+	strong, b, h1, h2, h3, h4, h5 {
 		font-weight: 400;
 		color: #363636;
 	}
@@ -1379,9 +1384,43 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h3, h4, h5, h6 {
+	h3, h4, h5 {
 		font-size: 1.25em;
 		letter-spacing: -0.015em;
+	}
+
+	h6 {
+		font-size: 0.85em;
+		letter-spacing: -0.015em;
+	}
+
+	h2.resume {
+		background-color: gray;
+	}
+
+	.company {
+		font-size: 0.5em;
+	}
+
+	.l3harris {
+		border:1px solid coral;
+		border-radius: 50%;
+		width: 32%;
+		height: auto;
+	}
+
+	.purdue {
+		border:1px solid black;
+		border-radius: 50%;
+		width: 30%;
+		height: auto;
+	}
+	
+	.brunchface {
+		border:1px solid #a3d199;
+		border-radius: 50%;
+		width: 30%;
+		height: auto;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -1433,8 +1472,22 @@ input, select, textarea {
 		clear: both;
 	}
 
-	p, ul, ol, dl, table, blockquote, form {
+	p, ol, dl, table, blockquote, form {
 		margin-bottom: 2em;
+	}
+
+	ul.jobdetails {
+		padding-left: 5%;
+		padding-right: 5%;
+		list-style-type: square;
+		text-align: justify;
+	}
+
+	p.jobdetails {
+		padding-left: 5%;
+		padding-right: 5%;
+		list-style-type: square;
+		text-align: justify;
 	}
 
 /* Table */
